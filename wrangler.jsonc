@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "vespera-v3-ai",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-13",
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ALLOWED_ORIGIN": "https://YOUR-GITHUB-USERNAME.github.io"
+  }
+}
